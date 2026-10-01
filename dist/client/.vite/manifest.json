@@ -1,0 +1,76 @@
+{
+  "../../../../../sites/gestione-ordini-agenti-backup/node_modules/pdfjs-dist/legacy/build/pdf.mjs": {
+    "file": "assets/pdf-Dt_impTI.js",
+    "name": "pdf",
+    "src": "../../../../../sites/gestione-ordini-agenti-backup/node_modules/pdfjs-dist/legacy/build/pdf.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "virtual:vinext-app-browser-entry"
+    ]
+  },
+  "../../../../../sites/gestione-ordini-agenti-backup/node_modules/pdfjs-dist/legacy/build/pdf.worker.min.mjs": {
+    "file": "assets/pdf.worker.min-D39lNQBd.mjs",
+    "src": "../../../../../sites/gestione-ordini-agenti-backup/node_modules/pdfjs-dist/legacy/build/pdf.worker.min.mjs"
+  },
+  "../../../../../sites/gestione-ordini-agenti-backup/node_modules/pdfjs-dist/legacy/build/pdf.worker.min.mjs?url": {
+    "file": "assets/pdf.worker.min-yAmLpZa7.js",
+    "name": "pdf.worker.min",
+    "src": "../../../../../sites/gestione-ordini-agenti-backup/node_modules/pdfjs-dist/legacy/build/pdf.worker.min.mjs?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/pdf.worker.min-D39lNQBd.mjs"
+    ]
+  },
+  "../../../../../sites/gestione-ordini-agenti-backup/node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "assets/layout-segment-context-C4ZJlR2L.js",
+    "name": "layout-segment-context",
+    "src": "../../../../../sites/gestione-ordini-agenti-backup/node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "_framework-CXnKph_e.js": {
+    "file": "assets/framework-CXnKph_e.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js"
+    ]
+  },
+  "_rolldown-runtime-S-ySWqyJ.js": {
+    "file": "assets/rolldown-runtime-S-ySWqyJ.js",
+    "name": "rolldown-runtime"
+  },
+  "app/auth-gate.tsx": {
+    "file": "assets/auth-gate-HQk-9ziX.js",
+    "name": "auth-gate",
+    "src": "app/auth-gate.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-CXnKph_e.js"
+    ],
+    "dynamicImports": [
+      "../../../../../sites/gestione-ordini-agenti-backup/node_modules/pdfjs-dist/legacy/build/pdf.mjs",
+      "../../../../../sites/gestione-ordini-agenti-backup/node_modules/pdfjs-dist/legacy/build/pdf.worker.min.mjs?url"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "assets/index-DTm1RNMk.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ],
+    "dynamicImports": [
+      "virtual:vinext-app-browser-entry",
+      "../../../../../sites/gestione-ordini-agenti-backup/node_modules/vinext/dist/shims/layout-segment-context.js",
+      "app/auth-gate.tsx"
+    ]
+  }
+}
